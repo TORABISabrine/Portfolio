@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:  linear-gradient(to right, #d3959b,#bfe6ba); 
+}
+
+    
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: center;
+
+}
+.name,.about,.my-project,.contact {
+font-family: 'PT Serif';
+
+font-size: 30px;
+color:black;
+margin-left: 7%;
+
+
+
+}
+
+ul{
+    list-style-type: none;
+}
+ul li {
+  display: flex;
+  gap: 50px;
+  margin-right:100px;
+}
+ul li a{
+    text-decoration:underline;
+    font-size: 18px;
+    font-family: 'PT Serif';
+    color :black;
+font-weight: bold; 
+transition: transform 1s,color 0.5s,background-color 0.5s,padding 0.5s,border-raius 0.5s;
+}
+ul li a:hover{
+    background-color: black;
+    color:#d3959b;
+    border-radius: 4px;
+    transform: scale(-10deg);
+    padding: 10px;
+}
+ul li a:active{
+    background-color: black;
+    color:#d3959b;
+    border-radius: 4px;
+    transform: scale(-10deg);
+    padding: 10px;
+}
+.row{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.about-me{
+    width: 430px;
+}
+img{
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+img:hover{
+    transform:translateY(-10px);
+
+}
+.project{
+    background-color: black;
+    color:#d3959b;
+    border-radius: 4px;
+   margin-left: 10px;
+   margin-right: 10px;
+   font-family: 'Playwrite India Guides';
+   font-weight: bold;
+   padding: 4px;
+   
+}
+.col-3 h3{
+    background-color: black;
+    color:#d3959b;
+    border-radius: 4px;
+
+  
+   font-family: 'Playwrite India Guides';
+   font-weight: bold;
+   padding: 6px; 
+   
+}
+
+
+.col-2 p {
+    margin-top: 20px;
+    
+}
+
+.h{
+    margin-top: 20px;
+}
+p{
+    font-family: 'PT Serif';
+    font-size: 20px;
+}
+.name1{
+   font-family: 'Playwrite India Guides';
+   
+}
+hr{
+    line-height: 2px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+h4{
+    text-decoration:underline;
+}
+.icons{
+  text-align: center;
+  margin-top: 1%;
+}
+
+#home{margin-bottom:10%;}
+#section2{
+    margin-top: 10%;
+    margin-bottom: 20%;
+
+}
+.col-3{
+  
+ 
+    width:400px ;
+  
+    position: relative;
+    left: 20%;
+    margin-top: 10%;
+    
+    
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+}
+.icons2 img{
+    margin-top: 20px;
+    margin-right: 10px;
+ 
+
+}
+#section3{
+    margin-top: 70px;
+}
+.cards{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    gap: 30px;
+margin: auto;
+    align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 25%;
+
+}
+.card h1{
+    font-family: 'Dancing script';
+    
+    color:#000080;
+    text-shadow: 0 0 10px #000080;
+    font-weight:  bold;
+}
+.card p{
+    font-family: 'poppins';
+}
+.link{
+   
+    font-family: 'Dancing script';
+    text-decoration: underline;
+   font-size: 20px;
+    color:#000080;
+    text-shadow: 0 0 10px #000080;
+    font-weight: bold;
+}
+footer{
+    background: white;
+}
+.contact-info{
+ margin:  20px auto 40px 40px;
+}
+.contact-info a{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'poppins';
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
