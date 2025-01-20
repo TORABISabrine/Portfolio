@@ -274,6 +274,147 @@ footer{
     .col-1 img {
         max-width: 100%;
     }
+    /* For screens smaller than 844px */
+@media (max-width: 844px) {
+    /* Hide icons on smaller screens */
+    .icons {
+        display: none;
+    }
+
+    /* Adjust profile image size to fit smaller screens */
+    .col-1 img {
+        width: 100%;
+        height: auto;
+        max-width: 300px; /* Ensure image doesn't stretch too much */
+    }
+
+    /* Navbar adjustment: stack the navbar links vertically */
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .navbar ul li {
+        display: block;
+    }
+
+    .navbar ul li a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    /* Stack sections vertically for mobile */
+    .row {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .col-2 {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    /* Reduce font size in the main section */
+    .name {
+        font-size: 24px;
+    }
+
+    .col-2 h1 {
+        font-size: 20px;
+    }
+
+    .col-2 p {
+        font-size: 16px;
+    }
+}
+
+/* For screens smaller than 661px (specific for iPhone XR, XS, and XS Max) */
+@media (max-width: 661px) {
+    /* Ensure the background gradient works smoothly */
+    body {
+        background: linear-gradient(to right, #d3959b, #ffb6c1); /* Smooth pink gradient */
+    }
+
+    /* Adjust layout of sections to fit smaller screens */
+    .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    /* Adjust header font sizes for mobile */
+    .name {
+        font-size: 22px;
+    }
+
+    .col-2 h1 {
+        font-size: 20px;
+    }
+
+    .col-2 p {
+        font-size: 14px;
+    }
+
+    /* Navbar links on smaller screens */
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .col-1 img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    /* Stack the icons and ensure proper spacing */
+    .icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /* Adjust links in the footer for smaller screens */
+    .contact-info a {
+        font-size: 14px;
+    }
+}
+
+/* For screens below 375px (e.g., iPhone SE) */
+@media (max-width: 375px) {
+    .navbar ul li a {
+        font-size: 14px;
+    }
+
+    .col-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .col-2 h1 {
+        font-size: 18px;
+    }
+
+    .col-2 p {
+        font-size: 14px;
+    }
+
+    /* Make sure the footer links adjust too */
+    .contact-info a {
+        font-size: 12px;
+    }
+}
 
     .col-2 h1,
     .col-2 h2,
