@@ -209,7 +209,7 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Empêche le défilement horizontal */
+    overflow-x: hidden;
 }
 @media (max-width: 844px) {
     .navbar ul {
@@ -242,7 +242,7 @@ body {
     }
 
     .icons2 {
-        display: none; /* Les icônes disparaissent */
+        display: none;
     }
 
     .about-me, .h {
@@ -257,6 +257,6 @@ body {
     }}
     @media (max-width: 844px) {
         body {
-            background: linear-gradient(to right, #d3959b, #bfe6ba); /* Reconfirme le dégradé pour les petits écrans */
+            background: linear-gradient(to right, #d3959b, #bfe6ba); 
         }
     }
