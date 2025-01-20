@@ -202,61 +202,87 @@ footer{
     margin-top: 5px;
     margin-left: 5px;
 }
-body {
-    background: linear-gradient(to right, #d3959b, #bfe6ba);
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
 @media (max-width: 844px) {
-    .navbar ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
 
-    .row {
-        flex-direction: column;
-        gap: 20px;
-        padding: 0 10px;
-    }
-
-    .col-1 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .col-1 img {
-        width: 100%;
-        max-width: 300px;
-        border-radius: 10px;
-    }
-
-    .col-2 {
-        width: 100%;
-        text-align: center;
-        padding: 0 10px;
-    }
-
-    .icons2 {
+    .icons {
         display: none;
     }
 
-    .about-me, .h {
-        margin-top: 10px;
-        padding: 0 10px;
+  
+    .col-1 img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+  
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navbar ul li {
+        display: block;
+    }
+
+    .navbar ul li a {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    .col-2 {
+        text-align: center;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 661px) {
+    
+    body {
+        background: linear-gradient(to right, #d3959b, #ffb6c1);
+    }
+
+ 
+    .row {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+  
+    .navbar ul {
+        gap: 15px;
+    }
+
+    .navbar ul li a {
+        font-size: 18px;
+    }
+
+  
+    .col-1 img {
+        max-width: 100%;
+    }
+
+    .col-2 h1,
+    .col-2 h2,
+    .col-2 p {
+        font-size: 18px;
+        padding: 10px;
     }
 
     .icons {
-        display: flex;
-        justify-content: center;
         margin-top: 10px;
-    }}
-    @media (max-width: 844px) {
-        body {
-            background: linear-gradient(to right, #d3959b, #bfe6ba); 
-        }
     }
+}
