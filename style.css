@@ -331,99 +331,72 @@ footer{
     }
 }
 
-/* For screens smaller than 661px (specific for iPhone XR, XS, and XS Max) */
-@media (max-width: 661px) {
-    /* Ensure the background gradient works smoothly */
-    body {
-        background: linear-gradient(to right, #d3959b, #ffb6c1); /* Smooth pink gradient */
-    }
-
-    /* Adjust layout of sections to fit smaller screens */
+@media only screen and (max-width: 844px) {
+ 
     .row {
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        text-align: center;
     }
 
-    /* Adjust header font sizes for mobile */
-    .name {
-        font-size: 22px;
+
+    .row .col-1 img {
+        width: 80%; 
+        max-width: 300px; 
+        border-radius: 50%; 
     }
 
-    .col-2 h1 {
-        font-size: 20px;
+ 
+    .name, .about, .my-project, .contact {
+        font-size: 24px;
+        text-align: center;
     }
 
-    .col-2 p {
-        font-size: 14px;
+    .about-me, .row2, .cards {
+        text-align: center;
     }
 
-    /* Navbar links on smaller screens */
+  
+    .navbar ul li {
+        gap: 20px;
+    }
+
     .navbar ul li a {
         font-size: 16px;
     }
 
-    .col-1 img {
-        max-width: 90%;
-        height: auto;
+
+    .icons2 {
+        display: none;
     }
 
-    /* Stack the icons and ensure proper spacing */
-    .icons {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    /* Adjust links in the footer for smaller screens */
-    .contact-info a {
-        font-size: 14px;
-    }
-}
-
-/* For screens below 375px (e.g., iPhone SE) */
-@media (max-width: 375px) {
-    .navbar ul li a {
-        font-size: 14px;
-    }
-
-    .col-1 img {
-        width: 100%;
-        height: auto;
-    }
-
-    .row {
+    /* Section 3 - Cartes de projets */
+    .cards {
         flex-direction: column;
-        gap: 15px;
+        width: 100%;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    /* Section Footer */
+    footer {
         text-align: center;
     }
 
-    .name {
-        font-size: 18px;
+    .contact-info {
+        margin: 20px auto;
     }
 
-    .col-2 h1 {
-        font-size: 18px;
-    }
-
-    .col-2 p {
-        font-size: 14px;
-    }
-
-    /* Make sure the footer links adjust too */
     .contact-info a {
-        font-size: 12px;
-    }
-}
-
-    .col-2 h1,
-    .col-2 h2,
-    .col-2 p {
         font-size: 18px;
-        padding: 10px;
     }
 
-    .icons {
-        margin-top: 10px;
+   
+    body {
+        background: linear-gradient(to right, #d3959b, #bfe6ba);
     }
 }
