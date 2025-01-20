@@ -202,4 +202,61 @@ footer{
     margin-top: 5px;
     margin-left: 5px;
 }
+body {
+    background: linear-gradient(to right, #d3959b, #bfe6ba);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+@media (max-width: 844px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
 
+    .row {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .col-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .col-1 img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+    }
+
+    .col-2 {
+        width: 100%;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .icons2 {
+        display: none; /* Les icônes disparaissent */
+    }
+
+    .about-me, .h {
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }}
+    @media (max-width: 844px) {
+        body {
+            background: linear-gradient(to right, #d3959b, #bfe6ba); /* Reconfirme le dégradé pour les petits écrans */
+        }
+    }
