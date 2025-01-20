@@ -278,7 +278,22 @@ footer{
    margin-bottom: 15%;
  
 
- }}
+ }
+
+  .about-me{
+    position: relative;
+    left: 10%;
+    width: 300px;
+    margin:auto;
+    
+  }
+       .col-2{
+        position: relative;
+        width:200px;
+        margin: auto;
+        flex-wrap:wrap;
+    }
+}
 @media only screen and (max-width: 460px){
     .col-2{
         position: relative;
