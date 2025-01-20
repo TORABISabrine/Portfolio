@@ -279,6 +279,13 @@ footer{
  
 
  }
+     .about-me{
+    position: relative;
+   
+    width: 300px;
+    margin:auto;
+    
+  }
 
 
 }
