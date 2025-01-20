@@ -284,5 +284,6 @@ footer{
         position: relative;
         width:200px;
         margin: auto;
+        flex-wrap:wrap;
     }
 }
