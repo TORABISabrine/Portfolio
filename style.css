@@ -286,4 +286,12 @@ footer{
         margin: auto;
         flex-wrap:wrap;
     }
+
+  .about-me{
+    position: relative;
+    left: 10%;
+    width: 300px;
+    margin:auto;
+    
+  }
 }
