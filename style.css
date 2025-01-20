@@ -211,14 +211,14 @@ footer{
         text-align: center;
     }
 
-    /* Ajustement de la photo de profil */
+ 
     .row .col-1 img {
         width: 80%; /* L'image sera plus petite pour s'adapter */
         max-width: 300px; /* Taille maximale de l'image */
         border-radius: 50%; /* Pour arrondir les bords de l'image */
     }
 
-    /* Réduction de la taille des titres et textes */
+
     .name, .about, .my-project, .contact {
         font-size: 24px;
         text-align: center;
@@ -228,7 +228,7 @@ footer{
         text-align: center;
     }
 
-    /* Navbar - ajustement de l'espacement et de la taille des liens */
+ 
     .navbar ul li {
         gap: 20px;
     }
@@ -237,12 +237,12 @@ footer{
         font-size: 16px;
     }
 
-    /* Section 2 - Ajustement des icônes d'ingénieur */
+   
     .icons2 {
-        display: none; /* Masque les icônes d'ingénieur sur les petits écrans */
+        display: none; 
     }
 
-    /* Section 3 - Cartes de projets */
+   
     .cards {
         flex-direction: column;
         width: 100%;
@@ -251,7 +251,7 @@ footer{
     }
 
     .card {
-        width: 80%; /* Les cartes seront plus petites */
+        width: 80%; 
     }
 
     /* Section Footer */
@@ -267,7 +267,7 @@ footer{
         font-size: 18px;
     }
 
-    /* Ajustement du background gradient */
+   
     body {
         background: linear-gradient(to right, #d3959b, #bfe6ba);
     }
